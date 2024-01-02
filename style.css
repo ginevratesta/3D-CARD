@@ -29,7 +29,7 @@ body {
 
 .pop-up{
   width: 100%;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.5s;
   position: absolute;
   opacity: 0;
   bottom: 50px;
@@ -40,7 +40,7 @@ body {
 
 .pop-up-2{
   width: 800px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.5s;
   position: absolute;
   opacity: 0;
   z-index: -1;
@@ -65,5 +65,4 @@ body {
     opacity: 1;
   transform: translate3d(0%, 5%, 60px);
   z-index: 1;
-  
 }
